@@ -1,0 +1,78 @@
+body{
+    background: #f8efd6;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    
+}
+
+.send{
+    background: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1em;
+}
+
+.clickable{
+    background:green;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: .75em;
+    padding: .6em 1.4em; 
+    display: right; 
+}
+
+.img-avatar{
+    width: 10em;
+    height: 10em;
+    background-image: url(img/1.jpg);
+    background-size: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100em;
+ -webkit-border-radius: 100em;
+ -moz-border-radius:100em;
+   }
+
+   .profile-name{
+    text-align: center;
+   }
+   .job-title{
+       text-transform: uppercase;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-weight: bold;
+       font-size: .80em;
+       color: rgb(20, 16, 16);
+   }
+   .uppercase{
+    text-transform: uppercase;
+  
+}
+
+   .box{
+    border-width: 2px ;
+    border-color: black;
+    border-style: solid;
+    margin: 30px 0;
+    padding: 15px;
+
+}
+
+ul{
+    column-count: 2;
+}
+.sending{
+    background: blue;
+    text-decoration: none;
+    font-weight: normal;
+    color: white;
+    font-size: 1em;
+    padding: .6em 1.4em; 
+    
+}
+
+.send-a-message{
+    margin: 30px 0;
+    padding: 15px;
+}
